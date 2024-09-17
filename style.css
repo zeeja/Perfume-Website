@@ -120,3 +120,57 @@ footer {
     text-align: center;
     padding: 20px 0;
 }
+
+/* Media Query for mobile devices */
+@media (max-width: 600px) {
+
+    /* Adjust header styles */
+    header .brand-name h1 {
+        font-size: 1.8em;
+    }
+
+    header nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    /* Banner text adjustments */
+    .banner-text {
+        padding: 10px;
+        width: 90%;
+        font-size: 1.2em;
+    }
+
+    .banner-text h2 {
+        font-size: 1.5em;
+    }
+
+    .banner-text p {
+        font-size: 1em;
+    }
+
+    /* Product layout for mobile */
+    .products {
+        display: block;
+    }
+
+    .product {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .product img {
+        width: 100%;
+    }
+
+    /* Footer text size adjustment */
+    footer p {
+        font-size: 0.9em;
+    }
+}
